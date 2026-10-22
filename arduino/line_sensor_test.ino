@@ -18,7 +18,7 @@
  *  【判读方法】某一路“白纸=1、黑线=0” -> 检测黑线输出低电平 0；
  *             某一路“白纸=0、黑线=1” -> 检测黑线输出高电平 1。
  *
- *  【结论怎么用】回到 car_pd_line.ino，把 BLACK_LEVEL 改成对应值：
+ *  【结论怎么用】回到 pd代码中，把 BLACK_LEVEL 改成对应值：
  *      检测黑线输出 0 -> #define BLACK_LEVEL LOW
  *      检测黑线输出 1 -> #define BLACK_LEVEL HIGH
  *
